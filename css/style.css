@@ -1,0 +1,24 @@
+.hidden {
+    display: none;
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form__namePlace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+.login-form__btn{
+   background-color: none;
+   border: none;
+   background-color: white;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+   margin-left: 10px;
+}
