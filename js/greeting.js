@@ -14,6 +14,7 @@ function onloginSubmit(event) {
   const username = loginInput.value;
   localStorage.setItem(USERNAME_KEY, username);
   paintGreetings(username);
+  window.location.reload();
 }
 
 function paintGreetings(username) {

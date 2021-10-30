@@ -39,6 +39,9 @@ body img {
 #login-form input::placeholder{
     color: white;
 }
+.login-form__btn{
+    cursor: pointer;
+}
 
 #clock{
     margin:0;
@@ -58,9 +61,11 @@ body img {
     font-size: 15px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0);
+    color: white;
 }
 .input-box::placeholder{
     color: white;
+    
 }
 
 #todo-list{
@@ -90,6 +95,7 @@ body img {
     font-size: 20px;
     color: red;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .bottom-section{
@@ -99,7 +105,7 @@ body img {
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 40px 0px;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -127,5 +133,14 @@ body img {
     font-weight: 900;
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
     margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#weather {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     color: white;
 }
