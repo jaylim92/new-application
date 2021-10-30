@@ -8,9 +8,8 @@
         <title>Momentum app</title>
 </head>
 <body>
-    <div class="main">
+    <div class="top-section">
     <form id="login-form" class="hidden">
-        <div class="login-form">
         <input required 
         maxlength="15" 
         type="text" 
@@ -18,29 +17,30 @@
         class="login-form__namePlace"
         />
         <input type="submit" value="Log In" class="login-form__btn"></input>
-    </div>
     </form>
     <h2 id="clock">00:00:00</h2>
     <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
+    <form id="todo-form" class="hidden">
     <input class="input-box" type="text" placeholder="Write to do and press enter" required/>
     </form>
-    <ul id="todo-list"></ul>
+    <ul id="todo-list" class="hidden"></ul>
+</div>
+    <div class="bottom-section">
     <div id="quote">
         <span></span>
         <span></span>
     </div>
+    <input type="button" value="log out" id="logout-form" class="hidden">
+    
     <div id="weather">
         <span></span>
         <span></span>
     </div>
-    <input type="button" value="log out" id="logout-form" class="hidden">
 </div>
-    
     <script src="js/greeting.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
-    <script src="js/background.js"></script>
+     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
 </body>
